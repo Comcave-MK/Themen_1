@@ -1,15 +1,15 @@
 // Entscheidungsstrukturen | control flow
 
 // Deklaration + Assignment
-const ageJohn = 30;
-const ageMark = 30;
+// const ageJohn = 30;
+// const ageMark = 30;
 
-// Deklaration
-let isJohnOlder, isJohnEqual;
+// // Deklaration
+// let isJohnOlder, isJohnEqual;
 
 // Test | Logische Aussage
-isJohnOlder = (ageJohn > ageMark);
-isJohnEqual = (ageJohn == ageMark);
+// isJohnOlder = (ageJohn > ageMark);
+// isJohnEqual = (ageJohn == ageMark);
 
 // Ausgabe
 // console.log("ageJohn: " + ageJohn);
@@ -68,3 +68,27 @@ isJohnEqual = (ageJohn == ageMark);
 //     console.log("John ist jünger!");
 // }
 
+
+/****** Fallunterscheidung / SWITCH/CASE 1 ******/
+
+const firstName = "Jane";
+let job;
+
+job = "Driver"; // .. fährt TAXI! / UBER
+job = "Diver"; // .. taucht im Rhein!
+
+switch (job)
+{   
+    case "driver":
+        console.log(firstName + " fährt TAXI!");
+        break;
+    case "diver":
+        console.log(firstName + " taucht im Rhein!");
+        break;
+
+    default:
+
+
+        break;
+
+}
