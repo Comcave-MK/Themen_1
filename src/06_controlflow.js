@@ -74,8 +74,12 @@
 const firstName = "Jane";
 let job;
 
-job = "Driver"; // .. fährt TAXI! / UBER
-job = "Diver"; // .. taucht im Rhein!
+job = "driver"; // .. fährt TAXI! / UBER
+job = "diver"; // .. taucht im Rhein!
+job = "artist"; // .. malt ein Bild! 
+job = "pilot"; // .. fliegt ein Flugzeug!
+job = "teacher"; // .. unterrichtet!
+job = "instructer"; // .. unterrichtet!
 
 switch (job)
 {   
@@ -85,8 +89,15 @@ switch (job)
     case "diver":
         console.log(firstName + " taucht im Rhein!");
         break;
-
+    case "artist":
+        console.log(firstName + " malt ein Bild!");
+        break;
+    case "teacher":
+    case "instructer":
+        console.log(firstName + " unterrichtet!");
+        break;
     default:
+        console.log("Jane macht etwas anderes!")
 
 
         break;
