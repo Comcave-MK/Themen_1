@@ -12,11 +12,11 @@ isJohnOlder = (ageJohn > ageMark);
 isJohnEqual = (ageJohn == ageMark);
 
 // Ausgabe
-console.log("ageJohn: " + ageJohn);
-console.log("ageMark: " + ageMark);
-console.log("isJohnOlder: " + isJohnOlder);
-console.log("isJohnEqual: " + isJohnEqual);
-console.log("------------------");
+// console.log("ageJohn: " + ageJohn);
+// console.log("ageMark: " + ageMark);
+// console.log("isJohnOlder: " + isJohnOlder);
+// console.log("isJohnEqual: " + isJohnEqual);
+// console.log("------------------");
 
 /************ IF ************/
 // TINA --> There is no alternative!
@@ -38,17 +38,33 @@ console.log("------------------");
 // if (true)
 // if (false)
 // if (isJohnOlder)
-if(ageJohn > ageMark)
-{
-    console.log("John is älter!");
-}
-{
-else 
-}
-{
-    console.log("John ist jünger!");
-}
-
+// if(ageJohn > ageMark)
+// {
+//     console.log("John is älter!");
+// }
+// {
+// else 
+// }
+// {
+//     console.log("John ist jünger!");
+//}
 
 /************  Ternäre (ternary) Schreibweise ************/
 // console.log( (isJohnOlder) ? "John is older" : "Mark is older");
+
+// if(isJohnOlder)
+// // Ja- Zweig
+// {
+//     console.log("John ist älter!");
+// } 
+// // alternative Zweige ... 1 .n
+// else if(isJohnEqual)
+// {
+//     console.log("John ist gleich alt!");
+// }
+// // gemeneinsame Alternative
+// else 
+// {
+//     console.log("John ist jünger!");
+// }
+
