@@ -103,17 +103,17 @@
 
 /********** Fallunterscheidung / SWITCH|CASE 2 *********/
 
-const cond = false;
-const value = 2;
+// const cond = false;
+// const value = 2;
 
-switch (cond) {
-    case (value == 1):
-        console.log ("Value hat den Wert ist 1.");
-        break;
-    case (value == 2):
-        console.log ("Value hat den Wert ist 2.");
-        break;
-    default:
-        console.log ("Value hat einen anderen Wert.");
-        break;
-}
+// switch (cond) {
+//     case (value == 1):
+//         console.log ("Value hat den Wert ist 1.");
+//         break;
+//     case (value == 2):
+//         console.log ("Value hat den Wert ist 2.");
+//         break;
+//     default:
+//         console.log ("Value hat einen anderen Wert.");
+//         break;
+// }
