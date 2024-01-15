@@ -10,13 +10,18 @@
 4. Ausgabe in Konsole : check!
 */
 
-
-
+// module: multiplication a * b |  test:
+// output(multiply(3,2));
+// output(multiply(3,-2));
+// output(multiply(3,0));
+function multiply(a,b) {
+	return a * b;
+}
 // module: substractiona - b | test:
-output(subtract(3,2));
-output(subtract(3,-2));
-output(subtract(3,0));
-output(subtract(0,2));
+// output(subtract(3,2));
+// output(subtract(3,-2));
+// output(subtract(3,0));
+// output(subtract(0,2));
 function substract(a,b) {
 	return a - b;
 }
