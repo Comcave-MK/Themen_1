@@ -21,15 +21,15 @@ function startApp() {
 }
 
 function getNum1() {
-	return parseInt(prompt("Zahl1?: ");
+	return parseInt(prompt("Zahl1?: "));
 }
 
 function getNum2() {
-	return parseInt(prompt("Zahl2?: ");
+	return parseInt(prompt("Zahl2?: "));
 }
-
+ 
 function getOp() {
-	return parseInt(prompt("OP?: ");
+	return (prompt("OP?: "));
 } 
 
 
